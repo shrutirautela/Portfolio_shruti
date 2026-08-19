@@ -15,8 +15,7 @@ const Resume = () => {
           object-contain
           rounded-xl
           shadow-lg
-          border-2
-          border-orange-600
+          
         "
       />
 

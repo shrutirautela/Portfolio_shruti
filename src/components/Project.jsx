@@ -76,7 +76,7 @@ min-h-0
 >
  <div className="max-w-[1200px] mx-auto">
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
     {cards.map((card) => (
       <div
@@ -85,14 +85,22 @@ min-h-0
           w-full
           min-h-[200px]
           rounded-2xl
-          border
-          border-[#d9c8a8]
+          border-l
+          border-l-[#d9c8a8]
+          border-l-2
+          border-t-2
+          border-r-4
+          border-b-4
+          border-l-orange-500
+          border-t-orange-500
+          border-r-orange-500
+          border-b-orange-500
           bg-[#f6f2ea]
           p-7
           sm:p-8
           shadow-sm
-          hover:shadow-md
-          hover:shadow-orange-500/30
+          hover:shadow-lg
+          hover:shadow-orange-500/20
           transition-all
           duration-300
         "
@@ -108,7 +116,7 @@ min-h-0
             font-fraunces
             text-xl
             sm:text-2xl
-            font-bold
+            font-black
             text-[#1a1a1a]
           ">
             {card.title}
@@ -141,7 +149,7 @@ min-h-0
         Selected work
       </h2>
 
-      <div className="mt-6 max-w-3xl space-y-2 text-[18px] md:text-[22px] leading-7 text-[#1f1f1f]">
+      <div className="mt-6 max-w-3xl space-y-2 text-[18px] md:text-[22px] leading-6.9 text-[#1f1f1f]">
         <p>
           A curated selection of frontend projects built with React,
           JavaScript, and Tailwind CSS. Each project focuses on responsive layouts, modern UI design,

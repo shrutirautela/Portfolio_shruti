@@ -2,7 +2,7 @@
 
 const About = () => {
   const skills = [
-    "Creativity",
+    
     "React",
     "JavaScript",
     "Tailwind CSS",
@@ -12,7 +12,17 @@ const About = () => {
     "REST APIs",
     "Collaboration",
     "Problem Solving",
-    "Frontend",
+    "Node.js",
+    "Express.js",
+    "Authentication & Authorization",
+    "CRUD Operations",
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "SQL",
+    "npm",
+    "Postman",
+     "Vercel",
     "Teamwork",
   ];
 

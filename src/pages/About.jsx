@@ -1,4 +1,4 @@
-import profileImg from "../assets/profile.jpg";
+import profileImg from "../assets/about.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -6,20 +6,23 @@ return ( <section
    id="about"
    className="bg-[#f6f2ea] text-black px-6 md:px-12 lg:px-20 py-16"
  > <div className="max-w-7xl mx-auto">
-{/* Top About Layout */} <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-{/* Left Image */} <div className="flex justify-center md:justify-start"> <img
+{/* Top About Layout */} 
+<div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-10 items-center">
+{/* Left Image */}
+ <div className="flex justify-center md:justify-start">
+          <img
            src={profileImg}
            alt="Shruti Rautela"
-           className="w-[300px] sm:w-[340px] md:w-[380px] lg:w-[430px]
+           className="w-[300px] sm:w-[370px] md:w-[380px] lg:w-[430px]
             h-[400px] sm:h-[450px] md:h-[500px]
-            object-cover rounded-[28px] border-2 border-black
-            sm:border-2"
+            object-contain  
+            "
          /> </div>
 
 
       {/* Right Content */}
       <div>
-        <h2 className="font-abc font-black leading-[1.1] text-[34px]    md:text-[48px] lg:text-[59px] mb-15 sm:ml-30 lg:ml-0">
+        <h2 className="font-abc font-black leading-[1.1] text-[34px]    md:text-[48px] lg:text-[59px] mb-6 sm:ml-0 lg:ml-0">
           Frontend Developer,
           <br />
           React Enthusiast
