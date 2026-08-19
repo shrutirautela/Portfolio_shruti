@@ -148,17 +148,149 @@ min-h-0
       <h2 className="font-fraunces text-5xl md:text-7xl font-bold leading-none text-[#203224]">
         Selected work
       </h2>
+      <div className="mt-12 overflow-hidden border-y-2 bg-black text-white border-black py-5">
+  <div className="flex items-center whitespace-nowrap animate-marquee">
 
-      <div className="mt-6 max-w-3xl space-y-2 text-[18px] md:text-[22px] leading-6.9 text-[#1f1f1f]">
-        <p>
-          A curated selection of frontend projects built with React,
-          JavaScript, and Tailwind CSS. Each project focuses on responsive layouts, modern UI design,
-          and clean component-based development.
-        </p>
-        
+    <span className="font-fraunces text-4xl md:text-6xl font-black">
+      WORK
+    </span>
+
+    <span className="mx-6 text-5xl md:text-7xl font-black">
+      •
+    </span>
+
+    <span className="font-fraunces text-4xl md:text-6xl font-black">
+      WORK
+    </span>
+
+    <span className="mx-6 text-5xl md:text-7xl font-black">
+      •
+    </span>
+
+    <span className="font-fraunces text-4xl md:text-6xl font-black">
+      WORK
+    </span>
+
+    <span className="mx-6 text-5xl md:text-7xl font-black">
+      •
+    </span>
+
+    <span className="font-fraunces text-4xl md:text-6xl font-black">
+      WORK
+    </span>
+
+    <span className="mx-6 text-5xl md:text-7xl font-black">
+      •
+    </span>
+
+    <span className="font-fraunces text-4xl md:text-6xl font-black">
+      WORK
+    </span>
+
+  </div>
+</div>
+
+     {/* Contents / Timeline Design */}
+<div className="mt-16 md:mt-24 grid grid-cols-1 md:grid-cols-[35%_65%] gap-10 md:gap-16">
+
+  {/* Left */}
+  <div className="flex items-start">
+    <div className="flex items-center gap-3">
+      <span className="w-16 md:w-24 h-4 md:h-5 bg-black"></span>
+
+      <h3 className="font-fraunces text-3xl sm:text-4xl md:text-5xl font-black text-[#1f1f1f]">
+        CONTENTS
+      </h3>
+    </div>
+  </div>
+
+  {/* Right */}
+  <div>
+
+    {/* Item 01 */}
+    <div className="pb-6">
+      <div className="flex items-center justify-between">
+        <h4 className="font-fraunces text-xl sm:text-2xl md:text-3xl font-black">
+          Frontend Development
+        </h4>
+
+        <span className="text-xl sm:text-2xl md:text-3xl font-bold">
+          2023
+        </span>
       </div>
 
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="border-b-2 border-dotted border-gray-400 mt-4"></div>
+
+      <p className="mt-3 text-sm sm:text-base md:text-lg text-gray-700">
+        React & Modern Web Development
+      </p>
+    </div>
+
+
+    {/* Item 02 */}
+    <div className="pb-6">
+      <div className="flex items-center justify-between">
+        <h4 className="font-fraunces text-xl sm:text-2xl md:text-3xl font-black">
+          Web Design
+        </h4>
+
+        <span className="text-xl sm:text-2xl md:text-3xl font-bold">
+          2024
+        </span>
+      </div>
+
+      <div className="border-b-2 border-dotted border-gray-400 mt-4"></div>
+
+      <p className="mt-3 text-sm sm:text-base md:text-lg text-gray-700">
+        Responsive & User-Centered Design
+      </p>
+    </div>
+
+
+    {/* Item 03 */}
+    <div className="pb-6">
+      <div className="flex items-center justify-between">
+        <h4 className="font-fraunces text-xl sm:text-2xl md:text-3xl font-black">
+          Full Stack Development
+        </h4>
+
+        <span className="text-xl sm:text-2xl md:text-3xl font-bold">
+          2025
+        </span>
+      </div>
+
+      <div className="border-b-2 border-dotted border-gray-400 mt-4"></div>
+
+      <p className="mt-3 text-sm sm:text-base md:text-lg text-gray-700">
+        Frontend, Backend & Database
+      </p>
+    </div>
+
+
+    {/* Item 04 */}
+    <div>
+      <div className="flex items-center justify-between">
+        <h4 className="font-fraunces text-xl sm:text-2xl md:text-3xl font-black">
+          Continuous Learning
+        </h4>
+
+        <span className="text-xl sm:text-2xl md:text-3xl font-bold">
+          2026
+        </span>
+      </div>
+
+      <div className="border-b-2 border-dotted border-gray-400 mt-4"></div>
+
+      <p className="mt-3 text-sm sm:text-base md:text-lg text-gray-700">
+        Learning New Technologies
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project) => (
   <a
     key={project.title}

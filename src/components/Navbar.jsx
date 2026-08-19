@@ -18,7 +18,6 @@ const Navbar = () => {
         {/* Center Menu */}
         <ul className="hidden md:flex items-center gap-10 text-[15px] uppercase font-extrabold text-black">
           <li><Link to="/">HOME</Link></li>
-           <li><Link to="/work">WORK</Link></li>
            <li><Link to="/about">ABOUT</Link></li>
            <li><Link to="/resume">RESUME</Link></li>
           <li>
