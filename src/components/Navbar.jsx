@@ -55,7 +55,7 @@ const Navbar = () => {
           <ul className="flex flex-col items-center gap-6 py-6 text-sm uppercase font-bold text-black">
 
            <li><Link to="/">HOME</Link></li>
-           <li><Link to="/work">WORK</Link></li>
+          
           <li><Link to="/about">ABOUT</Link></li>
           <li><Link to="/resume">RESUME</Link></li>
           <li>
